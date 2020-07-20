@@ -26,5 +26,5 @@ func testFunc(w http.ResponseWriter, r *http.Request) {
 }
 
 func renderHome(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("************Home Page!!!!!!")
+	fmt.Fprintf(w, "************Home Page!!!!!!")
 }

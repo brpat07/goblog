@@ -14,7 +14,7 @@ ContainerPort: 8000
 
 service:
   type: LoadBalancer
-  port: 80
+  port: 8000
 
 resources:
   limits:
